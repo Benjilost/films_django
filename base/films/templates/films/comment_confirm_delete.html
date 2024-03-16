@@ -1,0 +1,9 @@
+{% extends 'films/base.html' %}
+
+{% block content %}
+    <h2>Подтверждение удаления комментария</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Да, удалить</button>
+    </form>
+{% endblock %}

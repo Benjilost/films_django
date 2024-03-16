@@ -1,0 +1,10 @@
+{% extends 'films/base.html' %}
+{% block title %}Категории Фильмов{% endblock %}
+{% block content %}
+<h1>Список категорий</h1>
+{% for c in cats %}
+    <a href="{{ c.get_absolute_url }}"><h2>{{ c.name }}</h2></a>
+{% endfor %}
+{% endblock %}
+
+

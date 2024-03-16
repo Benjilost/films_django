@@ -1,0 +1,10 @@
+{% extends 'films/base.html' %}
+{% block title %}Добавить Фильм{% endblock %}
+{% block content %}
+<h1>Добавить фильм</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-dark mb-3">Сохранить</button>
+</form>
+{% endblock %}

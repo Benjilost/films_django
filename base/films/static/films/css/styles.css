@@ -1,0 +1,90 @@
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.nav-link  {
+    color: #ffffff;
+}
+
+.navbar .navbar-brand {
+    font-size: 35px; /* Регулируйте размер шрифта по вашему усмотрению */
+}
+
+.custom-image {
+    width: 200px;
+    height: 200px;
+}
+
+.custom-card {
+    width: 200px;
+    height: 200px;
+}
+
+.custom-container {
+    padding-right: 240px
+}
+
+.custom-title {
+    font-size: 19px;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #f8f9fa; /* Цвет фона для нечетных комментариев (белый) */
+    border: none;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #dee2e6; /* Цвет фона для четных комментариев (серый) */
+    border: none;
+}
+
+/* Опциональный стиль для уменьшения размера шрифта */
+.small-font {
+    font-size: small;
+}
+
+.comment-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gray-time {
+    color: gray;
+}
+
+.pagination-container {
+    margin-top: 20px; /* Добавляем марджин сверху */
+    text-align: center; /* Центрируем текст в блоке */
+}
+
+.pagination {
+    display: inline-block; /* Делаем блок с выбором страниц в строчным элементом */
+    margin-bottom: 20px; /* Добавляем марджин снизу */
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px; /* Добавляем небольшой отступ между элементами */
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
+
+.pagination .active {
+/*    background-color: #007bff;
+    color: #fff;*/
+    border: 1px solid #007bff;
+}
+
+
+
